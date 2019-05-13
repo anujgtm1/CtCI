@@ -3,7 +3,14 @@ package com.ctci.ch1;
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * Check if a string has all unique characters
+ * Contains implementation using hashmap and a brute force approach
+ */
+
+
 public class Ch1_1 {
+
     public Boolean hasUnique(String s) {
         Set<Character> set = new HashSet<>();
 

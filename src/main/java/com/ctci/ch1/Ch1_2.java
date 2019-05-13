@@ -3,6 +3,10 @@ package com.ctci.ch1;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Check if one string is a permutation of the other
+ */
+
 public class Ch1_2 {
 
     public boolean isPermutation(String s1, String s2) {
